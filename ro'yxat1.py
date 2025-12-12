@@ -1,0 +1,12 @@
+davlatlar=['Uzbekiston','Qozoqiston','Tojikiston','Turkmaniston','Afgoniston']
+#print(davlatlar)
+print('Davlatlar ro\'yxatining uzunligi>>>',len(davlatlar))
+print('.sorted() orqali tartiblash>>>',sorted(davlatlar))
+print('sorted(reverse=True) orqali tartiblash>>>',sorted(davlatlar,reverse=True))
+print('Asl jadval>>>',davlatlar)
+davlatlar.reverse()
+print('reverse() yordamida tartiblash>>>',davlatlar)
+davlatlar.sort()
+print('.sort() yordamida jadvalni tartiblash>>>',davlatlar)
+davlatlar.sort(reverse=True)
+print('sort(reverse=True) jadvalni teskari tartiblash>>>',davlatlar)
