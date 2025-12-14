@@ -1,2 +1,2 @@
-# py
+# PYTHON DARSLAR 0-DAN
 darslar
